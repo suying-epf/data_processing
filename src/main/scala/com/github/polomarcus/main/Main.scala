@@ -3,10 +3,8 @@ package com.github.polomarcus.main
 import com.typesafe.scalalogging.Logger
 import com.github.polomarcus.utils.ClimateService
 
-
 object Main {
-  def main(args: Array[String]): Unit = {
-
+  def main(args: Array[String]) {
     val logger = Logger(this.getClass)
     logger.info("Used `sbt run` to start the app")
 
@@ -22,4 +20,3 @@ object Main {
     System.exit(0)
   }
 }
-
