@@ -1,0 +1,147 @@
+2023.04.18 22:10:31 INFO  Started: Metals version 0.11.11 in workspace '/Users/suying/Desktop/data_engineering/tp/data-engineering' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/suying/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.18 22:10:32 INFO  time: initialize in 0.61s
+2023.04.18 22:10:36 WARN  Build server is not auto-connectable.
+2023.04.18 22:10:36 WARN  no build tool detected in workspace '/Users/suying/Desktop/data_engineering/tp/data-engineering'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.18 22:10:36 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/build.sbt
+4月 18, 2023 10:10:37 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.04.18 22:10:46 INFO  no build target found for /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/build.sbt. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.18 22:10:47 INFO  time: code lens generation in 10s
+2023.04.18 22:10:47 INFO  time: code lens generation in 10s
+2023.04.18 22:10:47 INFO  time: code lens generation in 2.04s
+2023.04.18 22:10:54 WARN  no build target for: /Users/suying/Downloads/build.sbt
+4月 18, 2023 10:10:54 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2023.04.18 22:11:49 WARN  no build target for: /Users/suying/Downloads/build.sbt
+4月 18, 2023 10:11:49 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+2023.04.18 22:12:10 WARN  no build target for: /Users/suying/Downloads/build.sbt
+4月 18, 2023 10:12:10 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 60
+2023.04.18 22:12:31 WARN  no build target for: /Users/suying/Downloads/build.sbt
+4月 18, 2023 10:12:31 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 95
+2023.04.18 22:12:31 WARN  no build target for: /Users/suying/Downloads/build.sbt
+2023.04.18 22:12:31 WARN  no build target for: /Users/suying/Downloads/build.sbt
+2023.04.18 22:13:25 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/src/main/scala/com/github/polomarcus/main/Main.scala
+2023.04.18 22:13:39 WARN  no build target for: /Users/suying/Downloads/Main.scala
+4月 18, 2023 10:13:39 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 154
+2023.04.18 22:13:58 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/build.sbt
+2023.04.18 22:14:23 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/src/main/scala/com/github/polomarcus/main/Main.scala
+2023.04.18 22:14:34 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/src/main/scala/com/github/polomarcus/main/Main.scala
+2023.04.18 22:14:56 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/src/main/scala/com/github/polomarcus/model/CO2Record.scala
+2023.04.18 22:15:01 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/src/test/scala/ClimateServiceTest.scala
+2023.04.18 22:15:17 WARN  no build target for: /Users/suying/Downloads/ClimateServiceTest.scala
+4月 18, 2023 10:15:17 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 238
+4月 18, 2023 10:15:18 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 243
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.04.18 22:20:02 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/src/test/scala/ClimateServiceTest.scala
+2023.04.18 22:20:10 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/src/test/scala/ClimateServiceTest.scala
+4月 18, 2023 10:20:14 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+2023.04.18 22:26:39 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/src/main/scala/com/github/polomarcus/main/Main.scala
+2023.04.18 23:02:47 INFO  Shutting down server
+2023.04.18 23:02:47 INFO  shutting down Metals
+2023.04.18 23:02:47 INFO  Exiting server
+2023.04.19 11:23:48 INFO  Started: Metals version 0.11.11 in workspace '/Users/suying/Desktop/data_engineering/tp/data-engineering' for client Visual Studio Code 1.74.3.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/suying/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.19 11:23:49 INFO  time: initialize in 0.75s
+2023.04.19 11:23:53 WARN  Build server is not auto-connectable.
+2023.04.19 11:23:53 WARN  no build tool detected in workspace '/Users/suying/Desktop/data_engineering/tp/data-engineering'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.19 11:23:53 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/src/test/scala/ClimateServiceTest.scala
+2023.04.19 11:23:53 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/build.sbt
+2023.04.19 11:24:00 INFO  no build target found for /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/build.sbt. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.19 11:24:04 INFO  time: code lens generation in 10s
+2023.04.19 11:25:25 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/src/main/scala/com/github/polomarcus/main/Main.scala
+2023.04.19 11:31:52 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/src/main/scala/com/github/polomarcus/utils/ClimateService.scala
+2023.04.19 11:31:54 INFO  time: code lens generation in 1.31s
+2023.04.19 11:32:59 WARN  no build target for: /Users/suying/Downloads/ClimateServiceTest.scala
+2023.04.19 11:34:32 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/src/main/scala/com/github/polomarcus/utils/ClimateService.scala
+2023.04.19 11:37:25 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/src/main/scala/com/github/polomarcus/utils/ClimateService.scala
+2023.04.19 11:38:40 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/src/main/scala/com/github/polomarcus/utils/ClimateService.scala
+4月 19, 2023 11:39:37 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: file:///Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/src/main/scala/com/github/polomarcus/utils/ClimateService.scala:21: error: invalid escape character
+val descriptionWords = description.toLowerCase.split("\W+")
+                                                       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.invalidEscape(LegacyScanner.scala:781)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChar(LegacyScanner.scala:769)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChars(LegacyScanner.scala:790)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:583)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:406)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:410)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptBalancedDelimeters(ScalaToplevelMtags.scala:520)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:310)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:53)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:41)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:104)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:291)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:291)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:286)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definitionOrReferences$1(MetalsLspService.scala:2654)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLspService.definitionOrReferences(MetalsLspService.scala:2650)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definition$1(MetalsLspService.scala:1507)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.definition(MetalsLspService.scala:1506)
+	at scala.meta.metals.lsp.DelegatingScalaService.definition(DelegatingScalaService.scala:69)
+	... 16 more
+
+2023.04.19 11:39:38 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/src/main/scala/com/github/polomarcus/utils/ClimateService.scala
+2023.04.19 11:39:43 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/src/main/scala/com/github/polomarcus/utils/ClimateService.scala
+2023.04.19 11:39:47 WARN  no build target for: /Users/suying/Desktop/data_engineering/tp/data-engineering/tp-functional-programming-scala/src/main/scala/com/github/polomarcus/utils/ClimateService.scala
+2023.04.19 11:39:49 INFO  Shutting down server
+2023.04.19 11:39:49 INFO  shutting down Metals
+2023.04.19 11:39:49 INFO  Exiting server
